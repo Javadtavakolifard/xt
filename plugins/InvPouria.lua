@@ -6,10 +6,9 @@ local function callback(extra, success, result)
 end
 
 local function run(msg, matches)
-  local user = 175636120
-
-  if matches[1] == "invpouria" then
-    user = 'user#id'..175636120
+  local user = '186280031'
+  if matches[1] == "invshahin" then
+    user = 'user#id'..186280031
   end
 
   -- The message must come from a chat group
@@ -29,7 +28,7 @@ return {
     "/invite name [user_name]", 
     "/invite id [user_id]" },
   patterns = {
-    "^[!/#](invpouria)$"
+    "^[!/#](invshahin)$"
   }, 
   run = run 
 }
