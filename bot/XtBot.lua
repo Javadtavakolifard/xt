@@ -283,19 +283,19 @@ An advanced administration bot based on TG-CLI written in Lua
 https://github.com/SIGNALTEAM/SignalTG.git
 
 Admins:
-🔥 @Ww_Developer_wW [Founder & Developer] 🔥
+🔥 @xt_robo [Founder & Developer] 🔥
 
-🔥 @Mr_Hidden [Sudo & Manager] 🔥
+🔥 @roboXt [Sudo & Manager] 🔥
 
-🔥 @SigNal_Founder [Sudo] 🔥
+🔥 @shahin_xtbot [Sudo] 🔥
 
-🔥 @Im_Best_Sudo [Sudo] 🔥
+🔥 @fati_ima [Sudo] 🔥
 
 Special thanks to
-SEEDTEAM
+XtBot
 
 Our channels
-@Signal_CH
+@xt_robo
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -664,7 +664,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 186280031
 now = os.time()
 math.randomseed(now)
 started = false
